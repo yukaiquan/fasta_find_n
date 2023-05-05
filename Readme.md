@@ -33,3 +33,38 @@ chr_findn is in the release folder
 ```
 ./chr_findn test.fasta test.bed
 ```
+
+</br>
+
+### Example
+
+#### Input
+
+test.fasta
+
+```
+>chr1
+ATNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNtaaattgttt
+taaattgtttctgtttgcagttgacatgatctNNNNNatagaaaacacca
+ataactctgccaaaaaatttagaattcataaatgaatttagtaaagttgc
+>chr2
+NNNNNNNNNNNNNNNTTNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNtaaattgttt
+taaattgtttctgtttgcagttgacatgatcttatatatagaaaacacca
+ataactctgccaaaaaatttagaattcataaatgaatttagtaaagttgc
+```
+
+#### Output
+
+test.bed
+
+```
+chr1	3	140
+chr1	183	187
+chr2	1	15
+chr2	18	140
+
+```
