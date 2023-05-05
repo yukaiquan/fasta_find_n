@@ -4,13 +4,13 @@
 
 ##### 🙈: **禹开权**
 
-##### 📧: **1962568272**[**@qq.com **](/qq.com)\*\* \*\*
+##### 📧: **1962568272**[@qq.com](/qq.com)
 
 </br>
 
 ### Description
 
-This is a simple program that finds the nth character in a string. It is written in Rust and is cross-platform. It is licensed under the MIT license.
+This is a simple program that finds the N character in a string. It is licensed under the MIT license.
 
 </br>
 
